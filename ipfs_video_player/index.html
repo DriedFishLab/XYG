@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+	<title>小鱼干哈希播放器</title>
+	<link rel="icon" href="/images/favicon_32.png" sizes="32x32" />
+	<link rel="icon" href="/images/favicon_144.png" sizes="144x144" />
+	<link rel="stylesheet" href="/css/common.css" />
+	<link rel="stylesheet" href="/css/index.css" />
+	<link rel="stylesheet" href="/css/dropzone.min.css" />
+	<script src="/js/cash.min.js"></script>
+	<script src="/js/dropzone.min.js"></script>
+	<meta charset="UTF-8">  
+</head>
+<body>
+	<main id="sitemain">
+		<div id="hashnav">
+			<input id="hashnav__input" placeholder="视频哈希值" />
+			<button id="hashnav__btn">看片啦</button>
+		</div>
+		<div id="sitedescription">
+			<p>小鱼干影院是使用存储在IPFS中的视频的播放器。</p>
+			<p>您可以在这里或在自己的计算机上使用上传视频 <code><a href="https://ipfs.io/docs/commands/#ipfs-add">ipfs服务</a></code>.</p>
+		</div>
+		<div id="uploader" class="dropzone"></div>
+	</main>
+	<footer id="sitefooter">
+		<span><a href="https://front2.cn">小鱼干官网</a></span>
+		<span><a href="http://xiaoyugan.81ug.cn">小鱼干影院</a></span>
+		<span><a href="http://yugan.fun">小鱼干论坛</a></span>
+		<span>Plays videos from <a href="https://ipfs.io/">IPFS</a></span>
+	</footer>
+	<script src="/js/common.js"></script>
+	<script src="/js/index.js"></script>
+</body>
